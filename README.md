@@ -26,7 +26,7 @@ after, you can use `mip` in  command, try.
 
 (1) None argument, will check local ip.
 
-![image-20210729190201790](README.assets/image-20210729190201790.png)
+![image-20210729193608901](README.assets/image-20210729193608901.png)
 
 (2) single argument, if ip, will check the ip given.
 

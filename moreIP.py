@@ -133,8 +133,8 @@ class MoreIP:
                 event_loop = asyncio.get_event_loop()
                 results = [json.loads(r)["data"] for r in event_loop.run_until_complete(
                     asyncio.gather(*tasks))]
-                return results
                 event_loop.close()
+                return results
         except Exception as e:
             print(e)
 

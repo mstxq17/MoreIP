@@ -149,7 +149,6 @@ class MoreIP:
         request_url = self.ping_api + "check-ping.html"
         async with aiohttp.request("POST", request_url, headers=headers, data=data) as r:
             response = await r.text(encoding="utf-8")
-            print(response)
             return response
 
 
